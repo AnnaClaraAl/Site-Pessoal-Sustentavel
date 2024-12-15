@@ -132,15 +132,26 @@ position: initial;
 }
 
 .Texto4{
-    color: rgb(0, 0, 0);
-    font-size: 70px;
+    float: right;
+    color: navy;
+    font-size: 60px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15%;
+    margin-left: 0%;
     margin-top: 1%;
     width: 50%;
-    margin-right: 4%;
+    margin-right: 25%;
     font-weight: bold;
+    text-decoration: underline;
+    animation: ColorChange2 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ColorChange2{
+    0% {color: navy}
+    25% {color: blue}
+    75% {color: blue}
+    100% {color: navy}
 }
 
 #Icon1{
@@ -261,7 +272,12 @@ position: initial;
     opacity: 90%;
 }
 
-
+#Imagen6{
+    width: 60%;
+    height: 60%;
+    margin-left: 7.5%;
+    opacity: 90%;
+}
 #Icone1{
     width: 5%;
     height: 10%;
@@ -441,4 +457,3 @@ position: initial;
 #Logo2{
 
 }
-
