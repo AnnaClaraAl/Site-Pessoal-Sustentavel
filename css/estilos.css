@@ -51,6 +51,8 @@ position: initial;
     margin-top: 2.5%;
 }
 
+
+
 .TituloC{
     color: navy;
     font-size: 50px;
@@ -79,6 +81,18 @@ position: initial;
     margin-left: 5%;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 7.5%;
+    font-style: italic;
+    width: 50%;
+}
+
+.TituloC5{
+    float: right;
+    color: navy;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6.5%;
     font-style: italic;
     width: 50%;
 
@@ -130,6 +144,7 @@ position: initial;
     margin-right: 4%;
     font-weight: bold;
 }
+
 
 .Texto4{
     float: right;
@@ -267,6 +282,60 @@ position: initial;
     margin-right: 0%;
     position: absolute;
     margin-top: 7.5%;
+    border-radius: 10%;
+    border: 5px black double;
+    opacity: 90%;
+}
+
+#Imagen7{
+    top: 5%;
+    left: 60%;
+    width: 35%;
+    min-height: 800px;
+    background-image: url(../imagens/FreeStyle-Libre.jpg);
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-right: 0%;
+    position: absolute;
+    margin-top: 7.5%;
+    border-radius: 10%;
+    border: 5px black double;
+    opacity: 90%;
+}
+
+#Imagen8{
+    top: 5%;
+    left: 5%;
+    width: 35%;
+    min-height: 500px;
+    background-image: url(../imagens/biolinq.png);
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-right: 0%;
+    position: absolute;
+    margin-top: 15%;
+    border-radius: 10%;
+    border: 5px black double;
+    opacity: 90%;
+}
+
+#Imagen9{
+    top: 5%;
+    left: 5%;
+    width: 35%;
+    min-height: 500px;
+    background-image: url(../imagens/C8-MediSensors.jpg);
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-right: 0%;
+    position: absolute;
+    margin-top: 62.5%;
     border-radius: 10%;
     border: 5px black double;
     opacity: 90%;
@@ -411,6 +480,16 @@ position: initial;
     margin-bottom: 7.5%;
 }
 
+#ParteA2{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5%;
+    background-image: url("../imagens/ParteA.png");
+    min-height: 1180px;
+    margin-bottom: 7.5%;
+}
+
 #ParteB2{
     position: relative;
     width: 90%;
@@ -418,6 +497,17 @@ position: initial;
     border-radius: 5%;
     background-image: url("../imagens/ParteB.png");
     min-height: 1080px;
+    margin-bottom: 7.5%;
+
+}
+
+#ParteB3{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5%;
+    background-image: url("../imagens/ParteB.png");
+    min-height: 1850px;
     margin-bottom: 7.5%;
 
 }
@@ -457,3 +547,17 @@ position: initial;
 #Logo2{
 
 }
+
+#Rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 10;
+    margin-left: 25%;
+    margin-right: 0%;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 2.5%;
+}
+
